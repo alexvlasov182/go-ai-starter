@@ -1,0 +1,36 @@
+# Binaries
+/tmp/
+/tmp/*
+
+# Logs
+*.log
+
+# Env files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependency directories (if used)
+vendor/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Docker
+*.pid
+**/node_modules

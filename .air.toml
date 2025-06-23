@@ -1,0 +1,15 @@
+# .air.toml
+
+[build]
+  bin = "tmp/main"
+  cmd = "go build -o tmp/main ./cmd/main.go"
+  delay = 1000
+  stop_on_error = true
+
+[log]
+  time = true
+  level = "debug"
+  color = true
+
+[run]
+  cmd = "./tmp/main"
